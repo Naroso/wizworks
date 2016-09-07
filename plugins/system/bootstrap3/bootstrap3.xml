@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>bootstrap3</name>
+    <author>Neo Hoang</author>
+    <creationDate>Aug 2016</creationDate>
+    <copyright>Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>admin@wizweb.io</authorEmail>
+    <authorUrl>www.wizweb.io</authorUrl>
+    <version>3.0.0</version>
+    <description>Load Bootsrap 3.x from CDN</description>
+    <files>
+        <filename plugin="bootstrap3">bootstrap3.php</filename>
+    </files>
+</extension>

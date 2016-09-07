@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+		<fields name="params" >
+			<fieldset name="theme-params" label="Adv Menu options">
+				<field name="theme_background_image" type="radio" default="0" label="Show Headline" description="Show Headline">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="imageurl" type="media" directory="backgrounds"
+				hide_none="1" label="Image"
+				size="40"
+				description="Image" />
+				<field name="menuitem_has_dropdown_multi_cols" type="radio" default="0" label="Show Dropdown menu" description="Show Dropdown menu">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="menuitem_multi_cols" type="radio" default="2" label="Number columns of dropdown" description="Number columns of dropdown">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</field>
+			</fieldset>			
+		</fields>
+</form>

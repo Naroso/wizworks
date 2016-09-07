@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 7, 2016, 10:32:42 AM
+    Author     : NeoHoang
+*/
+.dropdown-menu {
+  min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+  min-width: 600px;
+}
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+.multi-column-dropdown {
+  list-style: none;
+  margin: 0px;
+  padding: 0px 0px 0px 1em;
+}
+li.parent.lvl-2 > a,
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  color: #333;
+  white-space: normal;
+}
+li.parent.lvl-2 > a:hover,
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: #999;
+}
+li.parent.lvl-2 > a {
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+}
+#custom-quote-button {
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #3c70be;
+  border: 0;
+  font: 18px/42px Roboto, Arial, sans-serif;
+  padding: 0 23px;
+  margin: 3px 0;
+}
+/*# sourceMappingURL=menu.css.map */
